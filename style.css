@@ -91,16 +91,19 @@ p {
   color:rgb(182, 179, 179);
 }
 
-.barvy {
-  justify-content: center;
+.kosile {
+ display:flex;
 }
 
-.item {
+.menu {
   display:flex;
-  flex-wrap: wrap;
   align-items:center;
 }
 
 .nadpis {
-  display:flex;
+  margin:5px;
+}
+
+.prvni, .druha, .treti, .ctvrta {
+  margin:5px;
 }
