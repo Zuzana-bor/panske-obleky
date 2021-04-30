@@ -59,3 +59,48 @@ h1.site-title span {
   stroke: #000;
   stroke-width: 2;
 }
+
+.color-option__box {
+  display:flex;
+}
+
+.bila, .cerna, .cervena, .modra {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.bila {
+  background:white;
+}
+
+.cerna {
+  background:black;
+}
+
+.cervena {
+  background: red;
+}
+
+.modra {
+  background:lightblue;
+}
+
+p {
+  font-size:12px;
+  color:rgb(182, 179, 179);
+}
+
+.barvy {
+  justify-content: center;
+}
+
+.item {
+  display:flex;
+  flex-wrap: wrap;
+  align-items:center;
+}
+
+.nadpis {
+  display:flex;
+}
